@@ -5,8 +5,8 @@ class MySqlDb:
     def __init__(self):
         self.mydb = mysql.connector.connect(
             host='localhost',
-            user='root',
-            password='tor',
+            user='ahvcxa',
+            password='-',
             port='3306',
             database='CoffeeMachine'
         )

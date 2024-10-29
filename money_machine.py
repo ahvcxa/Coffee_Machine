@@ -25,7 +25,7 @@ class MoneyMachine:
         db = MySqlDb()
         db.select_execute('profit')
         profit = db.fetchall()
-        print(f'Money: {self.CURRENCY}{profit[0][0]}')
+        print(f'💵Money: {self.CURRENCY}{profit[0][0]}')
 
     def process_coins(self):
 
